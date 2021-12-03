@@ -1,0 +1,17 @@
+version: '1'
+type: docker-official-image
+
+extras:
+  ecrImageNames:
+    - skyscanner/newrelic-fluentbit-output
+
+component:
+  name: shell
+  owner:
+    - hubble
+  description: 
+  serviceClass: economy-class
+  personalDataHandling: none
+  soxScope: False
+  paymentProcessing: False
+  lifecycleState: production
