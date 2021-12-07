@@ -6,10 +6,10 @@ extras:
     - skyscanner/newrelic-fluentbit-output
 
 component:
-  name: shell
+  name: newrelic-fluentbit-output
   owner:
     - hubble
-  description: 
+  description: Patched version of New Relic's fluentbit image
   serviceClass: economy-class
   personalDataHandling: none
   soxScope: False
